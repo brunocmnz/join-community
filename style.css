@@ -32,12 +32,13 @@ body {
     flex-direction: column;
     width: min-content;
     box-sizing: border-box;
+    width: 50vw;
 }
 
 .cabecalho,
 .inscricao,
 .porque {
-    padding: 2rem;
+    padding: 2.5rem;
 }
 
 h2 {
@@ -58,10 +59,12 @@ h3 {
     background-color: var(--cor-geral);
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
+    box-sizing: border-box;
 }
 
 .cabecalho__titulo {
     color: var(--azul-escuro);
+    padding-bottom: 1em;
 }
 
 .cabecalho__texto {
@@ -74,15 +77,15 @@ h3 {
 
 .info {
     display: flex;
-    width: 40vw;
+    width: 100%;
 }
 
 .inscricao {
     display: flex;
     flex-direction: column;
     background-color: var(--azul-escuro);
-    box-sizing: border-box;
     border-bottom-left-radius: 10px;
+    width: 50%;
 }
 
 .inscricao a {
@@ -119,6 +122,7 @@ h3 {
 .porque {
     background-color: var(--azul-claro);
     border-bottom-right-radius: 10px;
+    width: 50%;
 }
 
 .porque__texto {
