@@ -150,4 +150,12 @@ h3 {
     .cabecalho__subtitulo{
         color: var(--cor-botao);
     }
+
+    .inscricao {
+        border-bottom-left-radius: 0;
+    }
+
+    .porque {
+        border-bottom-right-radius: 0;
+    }
 }
