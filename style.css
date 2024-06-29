@@ -124,3 +124,14 @@ h3 {
 .porque__texto {
     font-size: 14px;
 }
+
+@media screen and (max-width: 768px) {
+    .cabecalho{
+        width: 80%;
+    }
+
+    .info{
+        flex-direction: column;
+        width: 80%;
+    }
+}
