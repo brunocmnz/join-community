@@ -1,0 +1,1 @@
+Prática utilizando design Figma obtido em uma comunidade FrontEnd do Discord.
